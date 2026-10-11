@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "rea": {
+      "command": "npx",
+      "args": ["-y", "rea-agents@6.4.0", "mcp"],
+      "env": {
+        "GHIDRA_INSTALL_DIR": "/opt/ghidra",
+        "REA_PWNTOOLS_PYTHON": "/opt/rea-venv/bin/python",
+        "REA_UNBLOB_COMMAND": "/opt/rea-venv/bin/unblob",
+        "REA_MITMDUMP_COMMAND": "/opt/rea-venv/bin/mitmdump",
+        "REA_BINWALK_COMMAND": "/usr/local/bin/binwalk",
+        "REA_WAKARU_COMMAND": "/usr/local/bin/wakaru",
+        "REA_APKTOOL_COMMAND": "/usr/bin/apktool",
+        "REA_ADB_PATH": "/usr/bin/adb",
+        "REA_BROWSER_EXECUTABLE": "/opt/pw-browsers/chromium-1194/chrome-linux/chrome",
+        "REA_BROWSER_NO_SANDBOX": "1"
+      }
+    }
+  }
+}
